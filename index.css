@@ -1,7 +1,22 @@
 .main_body{background-color: #EBEDF0;width: 100%;height: 800px;}
 body{margin: 0;}
-.left_body{width: 100%;}
+.left_body{width: 50%;float: left;}
+.right_body{width: 50%; float: left;}
 .logo{
     height: 108px; margin: 150px;margin-top: 178px;}
 .para1{margin-top: -165px;margin-left: 178px;
     font-size: 27px;font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;}
+.username{ margin-right: 150px;margin-top: 150px;margin-left: 16px;padding-top: 24px;
+        
+    }
+.username1{ width: 360px; height:52px; border-color: #bbacac24;border-radius: 4px;}
+.border1{ background-color: white; width: 396px;height: 349px;margin-left: 31px;border-radius: 10px;
+    }
+.login_button{background-color: #1877f2; width: 90%;margin-left: 5%;margin-top: 3%;height: 45px;
+    color: white;cursor: pointer;border-radius: 5px;border-color: #EBEDF0;}
+.login_button:hover{background-color: darkblue;}
+.forgot{margin-left: 32%; text-decoration: none;}
+.create{background-color: #42b72a; width: 48%;text-align: center; border-radius: 4px;margin-left: 25%;height: 45px;color: white
+    ;border-color: white;cursor: pointer;border-radius: 6px;}
+.create:hover{background-color: green;}
+.page{margin-left: 85px;}
